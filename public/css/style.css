@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Montserrat-regular';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+
+body{
+    font-family: 'Montserrat-light', 'Montserrat-Regular', sans-serif;
+}
+
+.font-M-light{
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+.font-M-Regular{
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.font-M-Bold{
+    font-family: 'Montserrat-bold', sans-serif;
+}

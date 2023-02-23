@@ -43,7 +43,6 @@
            <td>{{$doc->serie}}</td>
            <td>{{$doc->observations}}</td>
            <td><a href='{{asset('storage/'.$doc->nomfichier)}}'>{{asset('storage/'.$doc->nomfichier)}}</a></td>
-           <!--<td>{{$doc->nomfichier}}</td>-->
            <td>{{$doc->datesaisie}}</td>
          </tr>
        @endforeach

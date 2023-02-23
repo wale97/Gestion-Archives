@@ -19,7 +19,7 @@ class SearchController extends Controller
     public function search (Request $request)
     {
         $data = Document::select("objet","cote","reference","datesaisie")/*(['objet','cote','reference'])*/
-                    ->where('objet', 'LIKE', '%'. $request->get('search').'%')
+                    ->where('objet', 'LIKE', '%'.$request->get('search').'%')
                     ->orwhere('cote','LIKE','%'.$request->get('search').'%')
                     ->orwhere('reference','LIKE','%'.$request->get('search').'%')
                     ->orwhere('datesaisie','LIKE','%'.$request->get('search').'%')
